@@ -7,10 +7,19 @@
   </head>
   <body class="mixpanel-platform-body">
     <h1>Hello, World!</h1>
+    
     <script>
       MP.api.ready(function() {
-        // Run queries and display results here
+        var eventSelector = $('<div></div>').appendTo('body').MPEventSelect();
+        
+        
       });
     </script>
+    
+    <div id="datePicker">Datepicker goes here?</div>
+    <div id="eventSelect">Property Selector</div>
+    
+    
+    
   </body>
 </html>
